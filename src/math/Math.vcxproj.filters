@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\PDE">
+      <UniqueIdentifier>{0cd1dc3f-e13e-4fd7-b5c8-6a3b8056eeca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PDE">
+      <UniqueIdentifier>{6bf62c0c-c010-4ce1-9e52-b4dfb5546859}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PDEModel">
+      <UniqueIdentifier>{83aae8ec-2a66-46f9-9a4b-a62fac017146}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PDEModel">
+      <UniqueIdentifier>{f7bffcde-5cf7-4bcc-b7d9-994f156e8248}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Matrix">
+      <UniqueIdentifier>{a763fff4-09c0-4164-ba5e-4785c5656070}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Matrix">
+      <UniqueIdentifier>{493e4785-5f44-49b2-820b-f9dc0581c1ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Solver">
+      <UniqueIdentifier>{028367ce-0328-4b5b-8f54-6a089a4639de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Solver">
+      <UniqueIdentifier>{44863c49-e362-46b3-885e-5281bf9d60ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Interpolator">
+      <UniqueIdentifier>{344c79cb-8a7f-4373-a8f2-e75650467ca7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AnalyticalFormulas">
+      <UniqueIdentifier>{55b00f94-a411-4f1d-bb54-ff4f50cbbebb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AnalyticalFormulas">
+      <UniqueIdentifier>{bdf905ad-2d0c-4ce4-b538-d5d07e354652}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Random">
+      <UniqueIdentifier>{74fd86c0-6ecf-4e03-ba89-7a7a1e954195}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Interpolator">
+      <UniqueIdentifier>{60506761-e832-4144-a12b-831fc21ae59c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\Math\PDE\ADI2DScheme.h">
+      <Filter>Header Files\PDE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Math\PDE\ADIScheme.h">
+      <Filter>Header Files\PDE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Math\PDE\Grid.h">
+      <Filter>Header Files\PDE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Math\PDE\PDEScheme.h">
+      <Filter>Header Files\PDE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Math\PDEModel\PDE1FCheyette.h">
+      <Filter>Header Files\PDEModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Math\PDEModel\PDEmodel.h">
+      <Filter>Header Files\PDEModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Math\Matrix\Matrix.h">
+      <Filter>Header Files\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Math\Solver\BandSolver.h">
+      <Filter>Header Files\Solver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Math\Interpolator\Interpolator.h">
+      <Filter>Header Files\Interpolator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Math\Interpolator\NaturalCubicSpline.h">
+      <Filter>Header Files\Interpolator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Math\Interpolator\InterpolatorBridge.h">
+      <Filter>Header Files\Interpolator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Math\Interpolator\Wrapper.h">
+      <Filter>Header Files\Interpolator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Math\Interpolator\DefaultInterpolator.h">
+      <Filter>Header Files\Interpolator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Math\PDEModel\PDEModelBridge.h">
+      <Filter>Header Files\PDEModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Math\AnalyticalFormulas\Black.h">
+      <Filter>Header Files\AnalyticalFormulas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Math\Solver\DifferentialEvolution.h">
+      <Filter>Header Files\Solver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Math\Random\Random.h">
+      <Filter>Header Files\Random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Math\Interpolator\2DNaturalCubicSpline.h">
+      <Filter>Header Files\Interpolator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Math\Interpolator\3DNaturalCubicSpline.h">
+      <Filter>Header Files\Interpolator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Math\Interpolator\LinearInterpolation.h">
+      <Filter>Header Files\Interpolator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Math\Interpolator\2DLinearInterpolator.h">
+      <Filter>Header Files\Interpolator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Math\Interpolator\3DLinearInterpolator.h">
+      <Filter>Header Files\Interpolator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Math\Interpolator\2DInterpolator.h">
+      <Filter>Header Files\Interpolator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Math\Interpolator\2DInterpolatorBridge.h">
+      <Filter>Header Files\Interpolator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Math\Interpolator\3DInterpolatorBridge.h">
+      <Filter>Header Files\Interpolator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Math\Interpolator\3DInterpolator.h">
+      <Filter>Header Files\Interpolator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Math\PDEModel\PDEHullWhite.h">
+      <Filter>Header Files\PDEModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Math\PDE\PDE1DSolver.h">
+      <Filter>Header Files\PDE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Math\PDEModel\PDEPC1FCheyette.h">
+      <Filter>Header Files\PDEModel</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PDE\ADI2DScheme.cpp">
+      <Filter>Source Files\PDE</Filter>
+    </ClCompile>
+    <ClCompile Include="PDE\ADIScheme.cpp">
+      <Filter>Source Files\PDE</Filter>
+    </ClCompile>
+    <ClCompile Include="PDE\Grid.cpp">
+      <Filter>Source Files\PDE</Filter>
+    </ClCompile>
+    <ClCompile Include="PDE\PDEScheme.cpp">
+      <Filter>Source Files\PDE</Filter>
+    </ClCompile>
+    <ClCompile Include="PDEmodel\PDE1FCheyette.cpp">
+      <Filter>Source Files\PDEModel</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix\Matrix.cpp">
+      <Filter>Source Files\Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="Solver\BandSolver.cpp">
+      <Filter>Source Files\Solver</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolator\Interpolator.cpp">
+      <Filter>Source Files\Interpolator</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolator\NaturalCubicSpline.cpp">
+      <Filter>Source Files\Interpolator</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolator\InterpolatorBridge.cpp">
+      <Filter>Source Files\Interpolator</Filter>
+    </ClCompile>
+    <ClCompile Include="PDEmodel\PDEModelBridge.cpp">
+      <Filter>Source Files\PDEModel</Filter>
+    </ClCompile>
+    <ClCompile Include="AnalyticalFormulas\Black.cpp">
+      <Filter>Source Files\AnalyticalFormulas</Filter>
+    </ClCompile>
+    <ClCompile Include="Solver\DifferentialEvolution.cpp">
+      <Filter>Source Files\Solver</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolator\2DNaturalCubicSpline.cpp">
+      <Filter>Source Files\Interpolator</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolator\3DNaturalCubicSpline.cpp">
+      <Filter>Source Files\Interpolator</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolator\LinearInterpolation.cpp">
+      <Filter>Source Files\Interpolator</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolator\2DLinearInterpolator.cpp">
+      <Filter>Source Files\Interpolator</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolator\3DLinearInterpolator.cpp">
+      <Filter>Source Files\Interpolator</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolator\2DInterpolatorBridge.cpp">
+      <Filter>Source Files\Interpolator</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolator\3DInterpolatorBridge.cpp">
+      <Filter>Source Files\Interpolator</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolator\2DInterpolator.cpp">
+      <Filter>Source Files\Interpolator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\Math\PDEModel\PDEHullWhite.cpp">
+      <Filter>Source Files\PDEModel</Filter>
+    </ClCompile>
+    <ClCompile Include="PDE\PDE1DSolver.cpp">
+      <Filter>Source Files\PDE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\Math\PDEModel\PDEPC1FCheyette.cpp">
+      <Filter>Source Files\PDEModel</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

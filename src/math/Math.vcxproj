@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\Math\AnalyticalFormulas\Black.h" />
+    <ClInclude Include="..\..\include\Math\Interpolator\2DInterpolator.h" />
+    <ClInclude Include="..\..\include\Math\Interpolator\2DInterpolatorBridge.h" />
+    <ClInclude Include="..\..\include\Math\Interpolator\2DLinearInterpolator.h" />
+    <ClInclude Include="..\..\include\Math\Interpolator\2DNaturalCubicSpline.h" />
+    <ClInclude Include="..\..\include\Math\Interpolator\3DInterpolator.h" />
+    <ClInclude Include="..\..\include\Math\Interpolator\3DInterpolatorBridge.h" />
+    <ClInclude Include="..\..\include\Math\Interpolator\3DLinearInterpolator.h" />
+    <ClInclude Include="..\..\include\Math\Interpolator\3DNaturalCubicSpline.h" />
+    <ClInclude Include="..\..\include\Math\Interpolator\DefaultInterpolator.h" />
+    <ClInclude Include="..\..\include\Math\Interpolator\Interpolator.h" />
+    <ClInclude Include="..\..\include\Math\Interpolator\InterpolatorBridge.h" />
+    <ClInclude Include="..\..\include\Math\Interpolator\LinearInterpolation.h" />
+    <ClInclude Include="..\..\include\Math\Interpolator\NaturalCubicSpline.h" />
+    <ClInclude Include="..\..\include\Math\Interpolator\Wrapper.h" />
+    <ClInclude Include="..\..\include\Math\Matrix\Matrix.h" />
+    <ClInclude Include="..\..\include\Math\PDEModel\PDEHullWhite.h" />
+    <ClInclude Include="..\..\include\Math\PDEModel\PDE1FCheyette.h" />
+    <ClInclude Include="..\..\include\Math\PDEModel\PDEmodel.h" />
+    <ClInclude Include="..\..\include\Math\PDEModel\PDEModelBridge.h" />
+    <ClInclude Include="..\..\include\Math\PDEModel\PDEPC1FCheyette.h" />
+    <ClInclude Include="..\..\include\Math\PDE\ADI2DScheme.h" />
+    <ClInclude Include="..\..\include\Math\PDE\ADIScheme.h" />
+    <ClInclude Include="..\..\include\Math\PDE\Grid.h" />
+    <ClInclude Include="..\..\include\Math\PDE\PDE1DSolver.h" />
+    <ClInclude Include="..\..\include\Math\PDE\PDEScheme.h" />
+    <ClInclude Include="..\..\include\Math\Random\Random.h" />
+    <ClInclude Include="..\..\include\Math\Solver\BandSolver.h" />
+    <ClInclude Include="..\..\include\Math\Solver\DifferentialEvolution.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\include\Math\PDEModel\PDEHullWhite.cpp" />
+    <ClCompile Include="..\..\include\Math\PDEModel\PDEPC1FCheyette.cpp" />
+    <ClCompile Include="AnalyticalFormulas\Black.cpp" />
+    <ClCompile Include="Interpolator\2DInterpolator.cpp" />
+    <ClCompile Include="Interpolator\2DInterpolatorBridge.cpp" />
+    <ClCompile Include="Interpolator\2DLinearInterpolator.cpp" />
+    <ClCompile Include="Interpolator\2DNaturalCubicSpline.cpp" />
+    <ClCompile Include="Interpolator\3DInterpolatorBridge.cpp" />
+    <ClCompile Include="Interpolator\3DLinearInterpolator.cpp" />
+    <ClCompile Include="Interpolator\3DNaturalCubicSpline.cpp" />
+    <ClCompile Include="Interpolator\Interpolator.cpp" />
+    <ClCompile Include="Interpolator\InterpolatorBridge.cpp" />
+    <ClCompile Include="Interpolator\LinearInterpolation.cpp" />
+    <ClCompile Include="Interpolator\NaturalCubicSpline.cpp" />
+    <ClCompile Include="Matrix\Matrix.cpp" />
+    <ClCompile Include="PDEmodel\PDE1FCheyette.cpp" />
+    <ClCompile Include="PDEmodel\PDEModelBridge.cpp" />
+    <ClCompile Include="PDE\ADI2DScheme.cpp" />
+    <ClCompile Include="PDE\ADIScheme.cpp" />
+    <ClCompile Include="PDE\Grid.cpp" />
+    <ClCompile Include="PDE\PDE1DSolver.cpp" />
+    <ClCompile Include="PDE\PDEScheme.cpp" />
+    <ClCompile Include="Solver\BandSolver.cpp" />
+    <ClCompile Include="Solver\DifferentialEvolution.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D7B6FCA2-4BF1-4284-888B-10F89866B71C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Math</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions); </PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\include;C:\temp\FEL\fel\boost\boost_1_55_0</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <DisableSpecificWarnings>
+      </DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\include;C:\temp\FEL\fel\boost\boost_1_55_0</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
